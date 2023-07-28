@@ -27,10 +27,8 @@ class HomeController extends Controller
     public function testfunction(){
         $var1 = 'new tset' ;
 
-        $var2 = 'var2'  ;
+        $var2 = 'var2' ;
 
-        return $var1 ;
-
+        return $var1;
     }
-    
 }
