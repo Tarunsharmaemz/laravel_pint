@@ -25,11 +25,11 @@ class HomeController extends Controller
     }
 
     public function testfunction()
-         {
-            $var1 = 'var1'  ;  
+    {
+        $var1 = 'var1 new';
 
-        $var2 = 'var2'      ;
+        $var2 = 'var2 new';
 
-        return $var1    ;
+        return $var1;
     }
 }
