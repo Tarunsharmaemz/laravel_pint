@@ -24,10 +24,11 @@ class HomeController extends Controller
         return view('home');
     }
 
-    public function testfunction(){
-        $var1 = 'new tset' ;
+    public function testfunction()
+    {
+        $var1 = 'var1';
 
-        $var2 = 'var2' ;
+        $var2 = 'var2';
 
         return $var1;
     }
