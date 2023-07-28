@@ -2,8 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-
 class HomeController extends Controller
 {
     /**
@@ -27,7 +25,11 @@ class HomeController extends Controller
     }
 
     public function testfunction(){
-        
-        dd('fsddf');
+        $var1 = 'new tset';
+
+        $var2 = 'var2';
+
+        return $var1;
+
     }
 }
